@@ -1,8 +1,7 @@
 // Please, before you do anything else, add your names here:
-// Group:    <Group number>
-// Member 1: <Full name 1>: <Student number 1>
-// Member 2: <Full name 2>: <Student number 2>
-
+// Group:    32
+// Member 1: Constantinof Alexia: <Student number 1>
+// Member 2: Dediu David: 2096676
 include "assignment.dfy"
  
 module Submission refines Assignment {
