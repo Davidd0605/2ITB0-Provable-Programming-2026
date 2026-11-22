@@ -9,7 +9,7 @@ module Submission refines Assignment {
   lemma EvenDoesNotDevideOdd(n: int, i: int)
         // The preconditions are the facts we knew at the point when we applied the lemma 
         // in the program, such as n is odd, n >= i >= 3 and i % 2 == 1.
-        requires n % 2 == 1
+        requires n % 2 == 1 
         requires n >= i >= 3
         requires i % 2 == 1
         // The postcondition is to prove that the even number we skip ( i + 1 ) does not 
@@ -36,7 +36,7 @@ module Submission refines Assignment {
                 }
               }
       }
-    
+      @TimeLimit(60)
       lemma NoDivisorFromIToN(n: int, i: int)
         // The preconditions are the facts we knew at the point when we applied the lemma 
         // in the program, such as n < i * i (negation of while statement), and the invariants 
